@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+  .input-purple {
+    @apply bg-purple-400 bg-opacity-50 text-white placeholder-gray-200 border border-purple-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-300 focus:border-transparent;
+  }
+}
